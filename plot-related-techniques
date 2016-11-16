@@ -1,0 +1,4 @@
+#matplotlib
+
+subplot三个参数代表的含义：
+subplot(numRows, numCols, plotNum）
