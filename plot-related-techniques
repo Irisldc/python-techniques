@@ -2,3 +2,4 @@
 
 subplot三个参数代表的含义：
 subplot(numRows, numCols, plotNum）
+比如说画4个subplots，221对应左上角，222对应右上角...以此类推
