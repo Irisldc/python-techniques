@@ -1,3 +1,6 @@
 #python中的中文问题
 
 Python自动支持ASCII编码，如果要使用中文，需要在文件开头写#coding=utf-8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
