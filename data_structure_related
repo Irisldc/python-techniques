@@ -1,0 +1,4 @@
+# transform JSON file as python dict
+import json
+path='file.txt'
+records=[json.loads(line) for line in open(path)]
