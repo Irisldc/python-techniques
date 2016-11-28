@@ -1,7 +1,11 @@
-with open的用法
+#with open的用法
 
 可以避免file打开后忘记关掉
 with open(file_name, mode='w+') as file_obj:
   for line in file_obj:
     some operations
-  
+
+#关于对file的操作
+a: 内容追加
+r: 只读
+w: 只写
